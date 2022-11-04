@@ -42,9 +42,15 @@ nav a {
     font-size: 1.14rem;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     body {
         padding: 0 1em;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin-right: 1em;
     }
 
     nav, .about-me-container {
@@ -58,7 +64,7 @@ nav a {
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 501px) {
 
     section#about-me img {
         margin: 0 auto;
